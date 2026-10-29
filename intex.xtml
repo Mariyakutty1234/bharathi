@@ -1,0 +1,82 @@
+html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: #35424a;
+            color: #ffffff;
+            padding: 20px text-align: center;
+            text-align: center;
+        }
+        nav {
+            background: #444;
+            text-align: center;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            display: inline-block;
+        }
+        nav a:hover {
+            background: #555;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            overflow: hidden;
+            background: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        footer {
+            background: #35424a;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to My Website</h1>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="https://www.w3schools.com/html/" target="_blank">Learn HTML</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <div class="container">
+        <h2>About This Page</h2>
+        <p>This is a simple, clean website structure built using <strong>HTML5</strong> and basic internal <strong>CSS</strong> for styling. It includes a header, a navigation menu, a main content area, and a footer.</p>
+        
+        <h2>Key Structural Tags Used:</h2>
+        <ul>
+            <li><code>&lt;header&gt;</code>: Defines the top banner.</li>
+            <li><code>&lt;nav&gt;</code>: Contains navigation links.</li>
+            <li><code>&lt;div&gt;</code>: Groups elements together to structure the layout.</li>
+            <li><code>&lt;h1&gt; to &lt;h6&gt;</code>: Text headings.</li>
+            <li><code>&lt;p&gt;</code>: Regular text paragraphs.</li>
+        </ul>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 My Simple Website. All Ri
